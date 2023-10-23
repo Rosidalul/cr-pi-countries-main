@@ -1,0 +1,76 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+   
+  }
+  
+  /* Agregamos una capa de superposición para mejorar la legibilidad del contenido */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para los selectores */
+  select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Estilos para las tarjetas */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para las tarjetas individuales (puedes personalizar más) */
+  .card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  input {
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    font-size: 1rem; /* Tamaño de fuente */
+    width: 250px; /* Ancho del input */
+    outline: none; /* Elimina el resaltado al enfocar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: border-color 0.3s ease; /* Transición al cambiar el color del borde */
+  }
+  
+  /* Estilo para el input cuando está enfocado */
+  input:focus {
+    border-color: #3281d5; /* Cambia el color del borde al enfocar */
+  }

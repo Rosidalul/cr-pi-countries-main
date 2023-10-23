@@ -1,0 +1,11 @@
+.divCard {
+  /* background-color: rgba(0, 0, 0, 0.525); */
+  display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 26px;
+      grid-row-gap: 16px;
+      width: 100%;
+      justify-content: center;
+      align-content: center;
+  }

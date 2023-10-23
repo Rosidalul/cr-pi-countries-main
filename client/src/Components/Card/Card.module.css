@@ -1,0 +1,40 @@
+.div {
+  background-color: #000000bc; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.div:hover {
+  transform: translateY(-5px); /* Efecto de elevación al pasar el cursor */
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

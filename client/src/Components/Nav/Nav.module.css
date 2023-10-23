@@ -1,0 +1,7 @@
+.btn {
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color:rgb(255, 255, 255);
+  font-size: 1em;
+  font-family: "Chiller", cursive;
+  background-color: rgba(2, 55, 133, 0.906);
+}

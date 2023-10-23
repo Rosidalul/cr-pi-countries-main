@@ -1,0 +1,75 @@
+.div {
+    width: 50%;
+    height: 50vh;
+    background-color: #000000bc;
+    /* Fondo oscuro */
+    color: white;
+    /* Texto blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Sombreado oscuro */
+}
+
+.heading {
+    font-size: 2.5rem;
+    /* Tamaño de fuente */
+    text-align: center;
+    /* Centrar el texto */
+    margin: 20px 0;
+    /* Margen superior e inferior */
+    font-family: 'Arial', sans-serif;
+    /* Fuente de texto (puedes cambiarla) */
+    background-image: linear-gradient(45deg, #ccffd3, #cc99ff);
+    
+    /* Hacer el texto transparente */
+    padding: 5px 10px;
+    /* Espaciado interno */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Sombra suave */
+    transition: background-image 0.3s ease, color 0.3s ease;
+    /* Transiciones suaves */
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Sombreado oscuro */
+}
+
+
+
+.button {
+    background-color: #002838;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00485550;
+}
+
+/* Efecto de hover para el h1 */
